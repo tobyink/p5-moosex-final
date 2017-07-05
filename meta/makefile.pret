@@ -4,6 +4,7 @@
 
 `MooseX-Final`
 	:runtime-requirement    [ :on "Exporter::Tiny 1.000000"^^:CpanId ];
+	:runtime-requirement    [ :on "perl 5.008"^^:CpanId ];
 	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
 	:test-requirement       [ :on "Test::Fatal"^^:CpanId ];
 	:test-requirement       [ :on "Test::Requires"^^:CpanId ];
