@@ -1,0 +1,18 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#>.
+
+`MooseX-Final`
+	:runtime-requirement    [ :on "Exporter::Tiny 1.000000"^^:CpanId ];
+	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
+	:test-requirement       [ :on "Test::Fatal"^^:CpanId ];
+	:test-requirement       [ :on "Test::Requires"^^:CpanId ];
+	:test-requirement       [ :on "Class::Tiny 1.001"^^:CpanId ];
+	:test-requirement       [ :on "parent 0.217"^^:CpanId ];
+	:test-suggestion        [ :on "Moose"^^:CpanId ];
+	:test-suggestion        [ :on "Mouse"^^:CpanId ];
+	:test-suggestion        [ :on "Moo"^^:CpanId ];
+	:test-suggestion        [ :on "UNIVERSAL::Object"^^:CpanId ];
+	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
+	.
+

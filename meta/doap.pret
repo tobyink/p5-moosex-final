@@ -1,0 +1,19 @@
+# This file contains general metadata about the project.
+
+@prefix : <http://usefulinc.com/ns/doap#>.
+
+`MooseX-Final`
+	:programming-language "Perl" ;
+	:shortdesc            "mark a class as "final" (cannot be inherited from)";
+	:homepage             <https://metacpan.org/release/MooseX-Final>;
+	:download-page        <https://metacpan.org/release/MooseX-Final>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=MooseX-Final>;
+#	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-moosex-final> ];
+	:created              2017-07-05;
+	:license              <http://dev.perl.org/licenses/>;
+	:maintainer           cpan:TOBYINK;
+	:developer            cpan:TOBYINK.
+
+<http://dev.perl.org/licenses/>
+	dc:title  "the same terms as the perl 5 programming language system itself".
+
