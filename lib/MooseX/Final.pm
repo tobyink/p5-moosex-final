@@ -100,6 +100,22 @@ class to be testing against at C<import> time.)
 
 =back
 
+=head2 Alternative Invocation Style
+
+The C<BUILD> method in the L</SYNOPSIS> could have been written as:
+
+   sub BUILD {
+     &assert_final;
+     my $self = shift;
+     ...;   # do other stuff here if required
+   }
+
+Note the ampersand before the function call and the lack of parentheses
+afterwards. This syntax may be less familiar to new Perl users, but is
+slightly more efficient because the Perl interpreter can avoid setting
+up a new C<< @_ >> array when it calls the function. See L<perlsub> for
+details.
+
 =head1 BUGS
 
 Please report any bugs to
