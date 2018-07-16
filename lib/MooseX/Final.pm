@@ -55,12 +55,13 @@ MooseX::Final - mark a class as "final" (cannot be inherited from)
      ...;   # do other stuff here if required
    }
  }
-
+ 
  package Example::Phone::Mobile {
    use Moose;
+   extends "Example::Phone";
    sub send_sms { ... }
  }
-
+ 
  my $friend = Example::Phone::Mobile->new(number => 123);  # dies
 
 =head1 DESCRIPTION
