@@ -7,3 +7,6 @@ cpan:TOBYINK
 	:page  <https://metacpan.org/author/TOBYINK>;
 	:mbox  <mailto:tobyink@cpan.org>.
 
+<urn:uuid:87fdf4c2-1801-4c1e-8633-bfd4b40c2d9b>
+	:name "Michael Jemmeson";
+	:mbox <mailto:michael.jemmeson@gmail.com>.

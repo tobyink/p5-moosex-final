@@ -4,3 +4,18 @@
 	issued  2017-07-05;
 	label   "Initial release".
 
+`MooseX-Final 0.002 cpan:TOBYINK`
+	issued  2018-07-16;
+	changeset [
+		item [
+			a dcs:Bugfix, dcs:Documentation;
+			label "SYNOPSIS was missing `extends`.";
+			dcs:thanks <urn:uuid:87fdf4c2-1801-4c1e-8633-bfd4b40c2d9b>;
+			dcs:fixes RT#122969;
+		];
+		item [
+			a dcs:Documentation;
+			label "Document an alternative invocation syntax.";
+		];
+	].
+
